@@ -1,0 +1,633 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.float {
+    float: left;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.head {
+    width: 100vw;
+    height: 50px;
+    /* background-color: pink; */
+}
+.head-box {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.cebianlan {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+}
+.yijialogo {
+    width: 50px;
+    height: 50px;
+    color:rgb(235, 0, 40);
+    font-size: 35px;
+
+}
+.gouwudai {
+    width: 50px;
+    height: 50px;
+ font-size: 24px;
+}
+.ironman {
+    width: 100vw;
+    height: 350px;
+    background-image: url("https://image01.oneplus.cn/shop/201906/27/357/ebc56544b83c55969d7c5af5a0fcc263.jpg");
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+        transition: all 1s;
+}
+.ironman:hover{
+    transform: scale(0.95, 0.95);
+}
+.ironman-text-box {
+ width: 100%;
+ height: 133.2px;
+ position: absolute;
+ z-index: 2;
+/* background-color: antiquewhite; */
+}
+.ironman-text1{
+  width: 100%;
+  height: 29.6px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+ /* background-color:  aquamarine; */
+  margin-top: 10px;
+}
+.ironman-text2 {
+ width: 100%;
+ height: 48px;
+ text-align: center;
+ font-size: 16px;
+ color: #ffff;
+ margin-top: 10px;
+}
+.ironman-text3-box {
+ width: 100%;
+ height: 25.6px;
+ text-align: center;
+}
+.ironman-text3 {
+    width: 100%;
+    height: 25.6px;
+    font-size: 14px;
+    color: #fff;
+}
+.img1{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://image01.oneplus.cn/shop/201906/13/1674/450a7a73fe18c049a9c2713b6d8cd0ac.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    transition: all 0.5s;
+    
+}
+.img1:hover {
+    transform: scale(0.95, 0.95);
+}
+.img1-box {
+    width: 100%;
+    height: 215px;
+    /* background-color: aqua; */
+
+}
+.img1-text {
+    display: block;
+    width: 100%;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
+.img1-text1 {
+    font-size: 24px; 
+    display: block;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+
+}
+.img1-text2 {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+
+}
+.img1-box2 {
+    width: 142px;
+    height: 40px;
+    border: 1px solid #000000;
+    margin: 20px auto;
+}
+.img1-text3 {
+    text-align: center;
+    font-size: 14px;
+    height: 40px;
+    width: 142px;
+    line-height: 40px;
+    display: block;
+    color: #000000;
+
+}
+.img1-text4 {
+    text-align: center;
+    font-size: 14px;
+}
+.img2 {
+    width: 100%;
+    height: 600px;
+    background-image: url("https://image01.oneplus.cn/shop/201905/16/563/11d32002899d52b81e4fc9992ab5cac5.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.img2:hover {
+    transform: scale(0.95, 0.95);
+}
+.img3 {
+    width: 100%;
+    height: 500px;
+    background-image:url("https://image01.oneplus.cn/shop/201907/24/1132/893c78384704699fe8c0585b48041000.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    transition: all 1s;
+    box-sizing: border-box;
+    padding-top: 38px;
+    transition: all 0.5s;
+    
+}
+.img3:hover {
+    transform: scale(0.95, 0.95);
+
+}
+
+.img3-box {
+    width: 100%;
+    height: 56px;
+ 
+    /* background-color: antiquewhite; */
+   box-sizing: border-box;
+}
+.img3-text1 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+}
+.img3-text2 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+}
+.img4 {
+    background-image: url("https://image01.oneplus.net/shop/201906/11/701/1a2d6948df8636132655014e4a8bede7.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    transition: all 1s;
+    box-sizing: border-box;
+    padding-top: 38px;
+    transition: all 0.5s;
+    
+}
+.img4:hover {
+    transform: scale(0.95, 0.95);
+
+}
+
+.img5 {
+    background-image: url("https://image01.oneplus.net/shop/201906/11/103/8537c18dd83b9dbb35e346163e880860.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 38px;
+    transition: all 0.5s;
+    
+}
+.img5:hover {
+    transform: scale(0.95, 0.95);
+}
+
+
+.img6 {
+    background-image: url("https://image01.oneplus.cn/shop/201906/20/1549/f83ddad923177320a99846ec19161576.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 38px;
+    transition: all 0.5s;
+}
+.img6:hover {
+  transform: scale(0.95, 0.95);
+}
+.img7 {
+    background-image: url("https://image01.oneplus.cn/shop/onedayonephoto/7a9e881d134590fb24bfa3d1c64254a5.jpg");
+    height: 187.6px;
+    width: 100%;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    transition: all 0.5s;
+}
+.img7:hover {
+    transform: scale(0.95, 0.95);
+  }
+.img7-box {
+   position: absolute;
+   top: 60px;
+   left: 85px;
+   /* background-color: aqua; */
+
+}
+.img7-text1 {
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+
+}
+.img7-text2 {
+    width: 74px;
+    height: 28px;
+    position: absolute;
+   top: 42px;
+   left: 65px;
+   border: 2px solid #fff;
+   font-size: 12px;
+   text-align: center;
+   color: #fff;
+   line-height: 28px;
+}
+.container {
+    width: 100%;
+    height: 1160px;
+    background-color: #F6F6F6;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 25px 40px;
+}
+.container-box1 {
+    width: 100%;
+    height: 1116px;
+
+    /* background-color: #fff; */
+}
+
+.container-img1 {
+   width: 295.2px;
+   height: 183.54px;
+   transition: all 0.5s;
+}
+.container-img1:hover {
+    transform: scale(0.95, 0.95);
+}
+.container-text1 {
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.container-text2{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.container-text3 {
+    color: #0099CC;
+}
+.container1 {
+    width: 100%;
+    height: 270px;
+    /* background-color: #0099CC; */
+    padding:20px 0px;
+}
+.container1-box {
+    /* position: relative; */
+    width: 277px;
+    height: 280px;
+    /* background-color: pink; */
+   /* margin: 20px; */
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-left: 48px;
+
+}
+.container1-img1 {
+    background-image: url(https://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+    background-position: 0 -400px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+
+}
+
+
+.container1-img2 {
+    background-image: url(https://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.container1-img3 {
+    background-image: url(https://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+      background-position: 0 -240px;
+      width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+
+}
+
+.container1-img4 {
+    background-image: url(https://statics.oneplus.cn/v2/img/common/serviceIcons-sd81bbaa639.png);
+      background-position: 0 -560px;
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      /* transition: all 0.5s; */
+  }
+  .nav{
+      height: 32px;
+      background-color: #FCFCFC;
+      width: 100%;
+  }
+  .nav1 {
+    /* height: 261px; */
+    width: 100%;
+    /* background-color: pink; */
+    position: relative;
+  }
+.nav1-title {
+    height: 50px;
+    width: 89%;
+    background-color: #FCFCFC;
+    border-top: 1px solid #E2E2E2;
+    padding: 0 20px;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    color: #828282;
+    position: relative;
+}
+
+.nav1-neirong {
+    padding-left: 50px;
+    color: #101920;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.nav1-neirong-box {
+    display: none;
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    z-index: 11;
+    background-color: #ffff;
+}
+.jiahao {
+    display: block;
+    font-weight: 500px;
+ position: absolute;
+ top:0px;
+ right: 60px;
+ /* background-color: #0099CC; */
+ font-size: 27px;
+ color: #000000;
+
+}
+.nav1:hover .nav1-neirong-box {
+display: block;
+}
+
+.china {
+    background-image: url("https://statics.oneplus.cn/ov/assets/images/sprites/header-stores-sprites-9f6e77014b.png");
+    background-position: -31px -63px;
+      width: 31px;
+      height: 21px;
+      position: absolute;
+    z-index: 10;
+    top: 8px;
+   margin-top: 10px;
+}
+.zhongguo {
+    display: block;
+    width: 180px;
+    position: absolute;
+    top:-16px;
+    left: 47px;
+    line-height: 50px;
+  }
+  .container2{
+      width: 100vw;
+      height: 125.6px;
+      /* background-color: pink; */
+      margin-top: 10px;
+      padding-top: 20px;
+
+  }
+  .container2-img1 {
+    width: 21px;
+    height: 21px;
+    color: #000000;
+    color: #0099CC;
+
+  }
+ 
+  .container2-text1 {
+    color: #000;
+    font-size: 14px;
+    color: #0099CC;
+  }
+  .dianhua-box {
+      height: 40px;
+    text-align: center;
+  }
+  .container2-text1-box {
+      width: 120px;
+      height: 40px;
+      margin: 5px auto;
+      border: 1px solid #000;
+      text-align: center;
+      padding-top: 8px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+  }
+  .container2-text3 {
+    color: #999;
+    font-size: 12px;
+   text-align: center;
+  }
+  .weixin-box {
+       position: relative;
+   
+  }
+  .weixin-img {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #84DC43;
+    display: block;
+     padding-left: 158px;
+    padding-top: 13px;
+  }
+  .erweima-img3 {
+    width: 120px;
+    height: 120px;
+    display: block;
+    position: absolute;
+    top:-170px;
+    left: 108px;
+   display:none;
+   z-index: 23;
+  }
+  .weixin-box:hover .erweima-img3 {
+      display: block;
+  }
+  .weibo-img4 {
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+  position: absolute;
+  top: -50px;
+  left: 197px;
+  color: #E6162D;
+  /* background-color: red */
+  }
+  .container2-topbox2 {
+    height: 50px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    font-size: 13px;
+  }
+  .container2-topbox2-text {
+   color:rgb(0, 153, 204);
+   font-size: 13px;
+  }
+  .container3 {
+      height: 90px;
+      /* background-color:pink; */
+     border-top: 1px solid #E2E2E2;
+     border-bottom:  1px solid #E2E2E2;
+  }
+  .container3-box {
+      /* background-color: pink; */
+      width: 225px;
+      height: 89px;
+      margin: 0 auto;
+  }
+  .container3-box-text1 {
+
+  }
+  .end-box-text {
+    font-size: 12px;
+    float: left;
+    padding-left: 5px;
+    color:rgb(16, 24, 31);
+  }
+  .end-box-text2 {
+    font-size: 12px;
+    float: left;
+    padding-left: 5px;
+    color:#E2E2E2;
+  }
+  .container4 {
+      /* height: 170px; */
+      /* background-color: #0099CC; */
+      padding-top: 25px;
+  }
+.container4-box {
+    /* height: 120px; */
+ /* background-color: #0099CC; */
+
+}
+.no-wrap {
+    display: block;
+    /* padding-left: 20px; */
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+ }
+ .jinghui-box {
+   width: 280px;
+   height: 30px;
+   margin-top: 30px;
+ position: relative;
+ padding-left: 90px;
+ }
+ .jinghui {
+   width: 20px;
+   height: 20px;
+ 
+ }
+ .jinghui-text {
+  position: absolute;
+  top: 3px;
+  left:111px;
+  font-size: 12px;
+  color: #000;
+ }
+ .end-box2 {
+    height: 60px;
+    width: 100vw;
+    color: #0099CC;
+    position: relative;
+  }
+  .end-img1 {
+    width: 84px;
+    height: 30px;
+   position: absolute;
+   top: 0px;
+   left:95px;
+   font-size: 16px;
+  }
+  .end-img2 {
+    width: 84px;
+    height: 30px;
+   position: absolute;
+   top: 0px;
+   left:200px;
+   font-size: 16px;
+  }
+  .end-img1-size{
+    width: 83px;
+  height: 30px;
+  }
+  .last-container {
+     height: 45px;
+     background-color: #EFEFEF;
+     font-size: 12px;
+     line-height: 45px;
+  }
